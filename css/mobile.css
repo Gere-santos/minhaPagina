@@ -1,0 +1,195 @@
+@media (max-width:414px){
+.headerr{
+   display: flex;
+  height: 100px;
+   justify-content: center;
+   position: fixed;
+}
+#lista-menu-mob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+#lista-li{
+    height: 15px;
+    background: black;
+    color: white;
+}
+.logo-inicio{
+    display: none;
+}
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.conjunto-logo{
+    display: none;
+}
+.content-1{
+    
+    height: 110vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+    
+   
+}
+#h1titulo{
+    font-size: 35px;
+    text-align: center;
+}
+.button-port{
+    width:200px;
+   
+
+   
+}
+#h2titulo2{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.intro{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.content-3{
+    height: auto;
+   margin: 0px auto;
+}
+
+.content-central-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bordaskills{
+    
+    width: 200px;
+}
+.portifolio{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.img-icon-skills{
+    height: 30px;
+    width: 30px;
+}
+#minhas-skills1{
+    font-size: 30px;
+}
+.jobs{
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    
+
+}
+.box{
+    width: 150px;
+}
+.jobs-android{
+    flex-direction: column;
+    padding: 30px;
+    
+    
+}
+video{
+    height: 250px;
+}
+.content-2{
+    height: auto;
+    
+     
+}
+.icone-whats{
+    margin-left: 15%;
+    margin-top: 120%;
+    height: 45px;
+    width: 45px;
+}
+.conjunto-logo2{
+    height: 30px;
+    width: 250px;
+    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.logo-redesocial{
+    height: 25px;
+    width: 25px;
+}
+.projeto-js, .projeto-android{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.footer-direito{
+    margin-right: 50%;
+}
+.direitos{
+    width: 220px;
+    text-align: center;
+}
+.box1{
+    background: url(/assets/img/spotify.png );
+    background-size: cover;
+    background-position: center;
+    
+}
+.box2{
+    background: url(/assets/img/drum.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background: url(/assets/img/coviapi.png);
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    background: url(/assets/img/contador.png);
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+    background: url(/assets/img/validadorsenha.png);
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    background: url(/assets/img/calculadoraimc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+}

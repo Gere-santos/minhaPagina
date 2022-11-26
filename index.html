@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lp Portifólio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
 <body>
@@ -14,16 +15,16 @@
         <div class="div-logo">
             <a href="#section-1"><img src="./img/GereDev.jpg" alt="" class="logo-inicio"></a>
         </div>
-        <div class="lista-menu">
+        <div class="lista-menu" id="lista-menu-mob">
             <ul>
                 <a href="#section-1">
-                    <li>Sobre mim</li>
+                    <li id="lista-li">Sobre mim</li>
                 </a>
                 <a href="#section-2">
-                    <li>Skills</li>
+                    <li id="lista-li">Skills</li>
                 </a>
                 <a href="#section-3">
-                    <li>Portifólio</li>
+                    <li id="lista-li">Portifólio</li>
                 </a>
 
             </ul>
@@ -35,7 +36,7 @@
             <div class="intro">
 
                 <h1 id="h1titulo">Olá! Eu sou o Geremias. </h1>
-                <h2 class="h2titulo">Desenvolvedor Front End, apaixonado por técnologia e amante de um bom café. </h2>
+                <h2 class="h2titulo" id="h2titulo2">Desenvolvedor Front End, apaixonado por técnologia e amante de um bom café. </h2>
                 <a href="https://github.com/Gere-santos?tab=repositories" target="_blank">
                     <button class="button-port">Portifólio</button>
                 </a>
@@ -57,7 +58,7 @@
                     alt="" class="icone-whats"></a>
         </div>
         <section class="content-3" id="section-2">
-            <h1 class="minhas-skills">Minhas Skills</h1>
+            <h1 class="minhas-skills" id="minhas-skills1">Minhas Skills</h1>
             <div class="content-central-3">
 
                 <div class="container-skills">
@@ -88,7 +89,7 @@
                             <div class="container">
                                 <img src="./img/icons8-javascript-144.png" alt="" class="img-icon-skills">
                             </div>
-                            <h3>JavaScript</h3>
+                            <h3>Java Script</h3>
                         </div>
                         <p>- Conhecimentos em :</p>
                         <p>- Funções.</p>
@@ -187,7 +188,7 @@
         <section class="content-2" id="section-3">
             <div class="content-2-geral">
                 <h1 class="portifolio">Portifólio</h1>
-                <h2 class="projeto-js">Porejtos em JavaScript puro.</h2>
+                <h2 class="projeto-js" >Porejtos em JavaScript puro.</h2>
                 <div class="jobs">
                     <div class="box1 box">
                         <div class="caixa-button">
@@ -243,7 +244,7 @@
                 <div class="jobs-android">
 
                     <video src="./videos/projetoatualorganizze.mp4" controls muted></video>
-                    <video src="./videos/projetoatualorganizze.mp4" controls muted></video>
+                   
                     <video src="./videos/projetoatualorganizze.mp4" controls muted></video>
                 </div>
 
@@ -266,7 +267,7 @@
 
     </main>
     <footer>
-        <div> Geremias Santos - Todos os Direitos Reservados.
+        <div class="direitos"> Geremias Santos - Todos os Direitos Reservados.
             <p> &copy Copyrigth 2022</p>
         </div>
         <div class="contato">

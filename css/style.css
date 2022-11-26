@@ -364,28 +364,28 @@ h3{
     
 }
 .box1{
-    background: url(./img/spotify.png);
+    background: url(/assets/img/spotify.png );
     background-size: cover;
     
 }
 .box2{
-    background: url(./img/drum.jpg);
+    background: url(/assets/img/drum.jpg);
     background-size: cover;
 }
 .box3{
-    background: url(./img/coviapi.png);
+    background: url(/assets/img/coviapi.png);
     background-size: cover;
 }
 .box4{
-    background: url(./img/contador.png);
+    background: url(/assets/img/contador.png);
     background-size: cover;
 }
 .box5{
-    background: url(./img/validadorsenha.png);
+    background: url(/assets/img/validadorsenha.png);
     background-size: cover;
 }
 .box6{
-    background: url(./img/calculadoraimc.jpg);
+    background: url(/assets/img/calculadoraimc.jpg);
     background-size: cover;
 }
 .logo-footer{
@@ -405,99 +405,3 @@ h3{
     text-align: center;
 }
 
-@media (max-width:850px){
-    .logo{
-      width: 350px;
-      height: 700px;
-    }
-   .intro{
-   width: 350px;
-   padding-left: 13px;
-   }
-   .conjunto-logo{
-    margin-left: -50%;
-   }
-   .img-logo-skill{
-    height: 250px;
-    width: 250px;
-   }
-   .container-skills{
-    width: 500px;
-    margin-top: 30px;
-   }
-   .jobs{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: solid 1px ;
-   }
-   .content-2-geral{
-    height: 100%;
-   }
-   .content-2{
-    height: 140vh;
-   }
-   .content-1{
-    width: auto;
-    
-   }
-}
-@media (max-width:450px){
-.content-1, .headerr, .content-3{
-    width: 450px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    
-    
-}
-.headerr{
-    overflow: hidden;
-}
-.content-1{
-    display: flex;
-    flex-direction: column;
-   padding-right: 10px;
-    height: 160vh;
-    padding-bottom: 130px;
-    
-}
-.intro{
-    width: 200px;
-    height: 600px;
-    margin-top: 200px;
-    
-}
-.lista-menu{
-    display: none;
-}
-.button-port{
-    width: 250px;
-}
-.logo{
-    width: 250px;
-    height: 250px;
-    margin-left: 90px;
-}
-#h1titulo{
-    font-size: 50px;
-    letter-spacing: -1px;
-}
-.conjunto-logo{
-    width: 300px;
-    margin-left: 80px;
-}
-.logo-redesocial{
-    width: 35px;
-    height: 35px;
-}
-
-
-
-.content-2{
-    height: 230vh;
-    width: 450px;
-    
-}
-footer{
-    width: 450px;
-}
-}
