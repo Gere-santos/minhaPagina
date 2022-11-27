@@ -162,33 +162,33 @@ footer{
     text-align: center;
 }
 .box1{
-    background: url(/assets/img/spotify.png );
+    background: url(/img/spotify.png );
     background-size: cover;
     background-position: center;
     
 }
 .box2{
-    background: url(/assets/img/drum.jpg);
+    background: url(/img/drum.jpg);
     background-size: cover;
     background-position: center;
 }
 .box3{
-    background: url(/assets/img/coviapi.png);
+    background: url(/img/coviapi.png);
     background-size: cover;
     background-position: center;
 }
 .box4{
-    background: url(/assets/img/contador.png);
+    background: url(/img/contador.png);
     background-size: cover;
     background-position: center;
 }
 .box5{
-    background: url(/assets/img/validadorsenha.png);
+    background: url(/img/validadorsenha.png);
     background-size: cover;
     background-position: center;
 }
 .box6{
-    background: url(/assets/img/calculadoraimc.jpg);
+    background: url(/img/calculadoraimc.jpg);
     background-size: cover;
     background-position: center;
 }
