@@ -364,28 +364,28 @@ h3{
     
 }
 .box1{
-    background: url(/img/spotify.png );
+    background: url(../img/spotify.png);
     background-size: cover;
     
 }
 .box2{
-    background: url(/img/drum.jpg);
+    background: url(../img/drum.jpg);
     background-size: cover;
 }
 .box3{
-    background: url(/img/coviapi.png);
+    background: url(../img/coviapi.png);
     background-size: cover;
 }
 .box4{
-    background: url(/img/contador.png);
+    background: url(../img/contador.png);
     background-size: cover;
 }
 .box5{
-    background: url(/img/validadorsenha.png);
+    background: url(../img/validadorsenha.png);
     background-size: cover;
 }
 .box6{
-    background: url(/img/calculadoraimc.jpg);
+    background: url(../img/calculadoraimc.jpg);
     background-size: cover;
 }
 .logo-footer{
